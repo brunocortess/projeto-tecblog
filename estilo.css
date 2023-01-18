@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:  Helvetica, sans-serif;
+    background-color: #e6e6e6; 
+}
+
+header#cabecalho {
+    background-color: #f7b600;
+    text-align: center;
+    padding: 25px;
+}
+
+div#area-logo > h1 {
+    color: #58554D;
+}
+
+div#area-logo > h1 span.branco {
+    color: white;
+}
+
+header#cabecalho > nav#menu {
+    margin-top: 20px;
+}
+
+nav#menu > a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+nav#menu > a:hover {
+    background-color: white;
+    color: #f7b600;
+}
+
+main > div#container {
+    display: flex;
+    justify-content: flex-start;
+    width: 920px;
+    margin: 12px auto;
+    border: 1px solid red;
+}
+
+div#container > section#conteudo {
+    width: 660px;
+}
+
+section#conteudo > article.postagem {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+article.postagem > h1 {
+    font-size: 1.5em;
+    color: #f7b600;
+}
+
+article.postagem > span.data-postagem {
+    font-size: 0.8em;
+}
+
+article.postagem > .img-postagem {
+    margin-top: 20px;
+}
+
+aside {
+    width: 260px;
+}
+
+aside > article.lateral {
+    background-color: white;
+    margin: 0px 0px 20px 20px;
+    padding: 10px;
+}
+
+article.lateral > h3 {
+    background-color: #ccc;
+    color: #565656;
+    padding: 5px;
+}
+
+article.lateral > a {
+    display: block;
+    color: #f7b600;
+    text-decoration: none;
+}
+
+article.lateral > div.postagem-lateral {
+    padding: 5px;
+}
+
+div.postagem-lateral > p {
+    font-size: 0.8em;
+}
+
+div.postagem-lateral > a {
+    color: #f7b600;
+    text-decoration: none;
+    font-size: 0.8em;
+}
